@@ -1,1 +1,1 @@
-ˢ Leetcode
+刷 Leetcode
