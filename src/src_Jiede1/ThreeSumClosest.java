@@ -15,7 +15,7 @@ public class ThreeSumClosest {
 	public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int closest=nums[0]+nums[1]+nums[2];
-        int diff=Math.abs(target-closest);
+        int diff=Math.abs(target-closest);  //have to abs
         if(diff==0)return closest;
         for(int i=0;i<nums.length-2;i++) {
         	int begin=i+1;
