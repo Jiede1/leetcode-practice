@@ -10,13 +10,12 @@
 
 package src_Jiede1;
 
-import java.awt.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ThreeSum {
-	public List<List<Integer>> threeSum(int[] nums) {
-		List<List<Integer>> result = new ArrayList<List<Integer>>();
+	public ArrayList<ArrayList<Integer>> threeSum(int[] nums) {
+		ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
         Arrays.sort(nums);
         for(int i=0;i<nums.length-2;i++) {
             if(i>0&&nums[i]==nums[i-1]) {
@@ -36,7 +35,7 @@ public class ThreeSum {
         			start++;
         		}
         		else {
-        			result.add(Arrays.asList(nums[i],nums[start],nums[end]));
+        			result.add((ArrayList<Integer>) Arrays.asList(nums[i],nums[start],nums[end]));
         			start++;
                     end--;
         		}
