@@ -1,3 +1,4 @@
+package src_Jiede1;
 import java.util.List;
 
 /**
@@ -7,6 +8,7 @@ import java.util.List;
  * @time: 2018/11/26$ 17:38$
  * @desc: 在此写上代码文件的功能描述
  **/
+import DataStructure.ListNode;
 
 public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
