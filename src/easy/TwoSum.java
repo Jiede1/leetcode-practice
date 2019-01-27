@@ -17,7 +17,7 @@ public class TwoSum {
 		int count = table.containsKey(number)?table.get(number):0;
 		table.put(number, count+1);
 	}
-	public Boolean find(int value) {
+	public boolean find(int value) {
 		for(Map.Entry<Integer, Integer> entry:table.entrySet()) {
 			int num = entry.getKey();
 			int y = value - num;
