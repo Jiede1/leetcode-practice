@@ -17,10 +17,10 @@ public class ImplementstrStr {
 		            if (haystack.charAt(i) == needle.charAt(j)) {
 		                ++i; ++j;
 		                
-		                System.out.println("ij:"+i+","+j);
+		                //System.out.println("ij:"+i+","+j);
 		            } else {
 		                i -= j - 1; j = 0;
-		                System.out.println(i+","+j);
+		                //System.out.println(i+","+j);
 		            }
 		        }
 		        return j != needle.length()? -1 : i - j;

@@ -11,7 +11,6 @@ package src_Jiede1;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 
 public class GenerateParentheses {
@@ -32,11 +31,6 @@ public class GenerateParentheses {
         
         if (left != 0)
             doadd(left-1,right,list,path+"(");
-        /*
-        for(String l:list) {
-        	System.out.println(l);
-        }
-        */
         if (right != 0 && right > left)
             doadd(left,right-1,list,path+")");
     }

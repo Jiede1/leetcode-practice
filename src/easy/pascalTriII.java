@@ -11,8 +11,7 @@
 package easy;
 import java.util.*;
 
-import com.sun.media.sound.SoftSynthesizer;
-
+//II 是为I 的做法节省了List<List<Integer>>的存储空间
 public class pascalTriII {
 	public void printRow(List<Integer> List) {
 		for(int i=0;i<List.size();i++) {

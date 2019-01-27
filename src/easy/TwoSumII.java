@@ -17,7 +17,7 @@ public class TwoSumII {
         for(int i=0;i<numbers.length;i++){            
             if(a.containsKey(target-numbers[i])){
                 result[0]= a.get(target-numbers[i]);
-                result[1] = i;
+                result[1] = i+1;
                 break;
             }
             else{

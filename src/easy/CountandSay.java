@@ -9,12 +9,13 @@
 
 
 package easy;
+//https://blog.csdn.net/weixin_40039738/article/details/79965597
 
 public class CountandSay {
 	public String countAndSay(int n) {
 		if(n==1) return "1";
 		String index ="1";
-		while(n>0) {
+		while(n>1) {
 			n--;
 			String temp = "";
 			int count = 1;
