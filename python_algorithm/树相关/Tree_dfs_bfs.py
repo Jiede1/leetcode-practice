@@ -44,7 +44,7 @@ def bfs(root):
 	if root.left:
 		result.append(root.left.item)
 	if root.right:
-		result.append(root.right.item),
+		result.append(root.right.item)
 	if root.left:
 		bfs(root.left)
 	if root.right:
