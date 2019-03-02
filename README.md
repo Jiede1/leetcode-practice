@@ -21,3 +21,4 @@ KMP算法： http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%9
 值得留意的题目：树相关。具体有：   
 [MergeTwoBinaryTrees](https://github.com/Jiede1/leetcode-practice/blob/master/Top100LinkedQuestion/MergeTwoBinaryTrees.java)  
 [ReverseLinkedList.java](https://github.com/Jiede1/leetcode-practice/blob/master/Top100LinkedQuestion/ReverseLinkedList.java)   参考：https://www.cnblogs.com/byrhuangqiang/p/4311336.html 
+[Diameter of Binary Tree](https://github.com/Jiede1/leetcode-practice/blob/master/Top100LinkedQuestion/DiameterofBinaryTree.java)  
