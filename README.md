@@ -23,6 +23,8 @@ KMP算法： http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%9
 [ReverseLinkedList.java](https://github.com/Jiede1/leetcode-practice/blob/master/Top100LinkedQuestion/ReverseLinkedList.java)  参考：https://www.cnblogs.com/byrhuangqiang/p/4311336.html     
 [DiameterofBinaryTree.java](https://github.com/Jiede1/leetcode-practice/blob/master/Top100LinkedQuestion/DiameterofBinaryTree.java)  
 
+[394. Decode String]
+
 【收集的比较好的参考视频】：  
 * 递归，二叉树，回溯算法：https://www.bilibili.com/video/av43466895/?p=4  
 
