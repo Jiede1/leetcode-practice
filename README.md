@@ -25,6 +25,7 @@ KMP算法： http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%9
 
 [394. Decode String]
 
-【收集的比较好的参考视频】：  
+【收集的比较好的参考资料】：  
 * 递归，二叉树，回溯算法：https://www.bilibili.com/video/av43466895/?p=4  
+* 经典算法应用之六---过桥问题和过河问题： https://www.jianshu.com/p/84608db757b4  
 
