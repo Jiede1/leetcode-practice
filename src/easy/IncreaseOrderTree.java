@@ -10,6 +10,26 @@
 
 package easy;
 
-public class IncreaseOrderTree {
+class TreeNode {
+     int val;
+     TreeNode left;
+     TreeNode right;
+     TreeNode(int x) { val = x; }
+}
 
+
+public class IncreaseOrderTree {
+    public TreeNode increasingBST(TreeNode root) {
+        TreeNode node = new TreeNode(0);
+        tsp(root,node);
+        return node.right;
+    }
+    public TreeNode tsp(TreeNode root, TreeNode cur){
+        if(root == null)
+            return cur;
+        cur = tsp(root.left, cur);
+        cur.right = new TreeNode(root.val);
+        cur = cur.right;
+        return tsp(root.right, cur);
+    }
 }
